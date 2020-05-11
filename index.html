@@ -1,59 +1,97 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
-    <link rel="stylesheet" type="text/css" href="assets/bulma-0.8.2/css/bulma.css">
-    <link rel="stylesheet" type="text/css" href="assets/custom/css/menu.css">
+	<title>Page Title</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+		  crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"></script>
 </head>
 <body>
 
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#" style="margin-top:2vh;">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+<div class="container">
+
 </div>
 
-<section class="section">
-	<div class="container is-widescreen">
-		<div class="level">
-			<div class="level-left">
-					<figure class="image is-96x96">
-					  <img src="assets/images/logo1.png" alt="Placeholder image">
-					</figure>
-			</div>
-			<div class="level-right">
-				<span style="font-size:30px;cursor:pointer" onclick="openNav()"></span>
-			</div>
+<div class="container mt-3 mb-3">
+	<nav class="navbar navbar-expand-sm collapse navbar-collapse">
+		<button class="navbar-toggler" type="button"
+				data-toggle="collapse" data-target="#sutra_menu"
+				aria-controls="sutra_menu" aria-expanded="false"
+				aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+		<div class="collapse navbar-collapse justify-content-center" id="sutra_menu">
+		  <ul class="navbar-nav nav-fill w-100">
+			<li class="nav-item">
+			  <a class="nav-link" href="#">HOME</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">POSTS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">ABOUT</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">CONTACT</a>
+			</li>
+		  </ul>
 		</div>
-	</div>
-</section>
+	</nav>
+</div>
 
-<section class="section">
-	<div class="container">
-		<div class="columns">
-		  <div class="column is-3">
+
+<div class="container mt-5">
+	<div class="row justify-md-content-center">
+		<div class="col-3 p-3 bg-dark">
 			<div class="card">
-			  <div class="card-image">
-				<figure class="image is-4by3">
-				  <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-				</figure>
-			  </div>
-			  <div class="card-content">
-				<div class="content">
-				  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-				  Phasellus nec iaculis mauris.
+				<img class="card-img-top" src="https://picsum.photos/200/100" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card
+						title and make up the bulk of the card's content.</p>
 				</div>
-			  </div>
-			  <footer class="card-footer">
-				<a href="#" class="card-footer-item">READ MORE</a>
-			  </footer>
 			</div>
-		  </div>
+		</div>
+		<div class="col-3  p-3 bg-dark">
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/200/100" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card
+						title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-3  p-3 bg-dark">
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/200/100" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card
+						title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-3  p-3 bg-dark">
+			<div class="card">
+				<img class="card-img-top" src="https://picsum.photos/200/100" alt="Card image cap">
+				<div class="card-body">
+					<p class="card-text">Some quick example text to build on the card
+						title and make up the bulk of the card's content.</p>
+				</div>
+			</div>
 		</div>
 	</div>
-</section>
+</div>
+
 
 </body>
 <script src="assets/custom/js/menu.js"></script>
