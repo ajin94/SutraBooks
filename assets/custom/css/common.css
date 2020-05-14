@@ -1,0 +1,12 @@
+.caption-border-left{
+    border-left:solid 6px black;
+}
+
+#sutra_menu .nav-item a {
+    font-weight: bold;
+    color: #c53e2e;
+}
+
+#sutra_menu .nav-item a:hover {
+    color: black;
+}
