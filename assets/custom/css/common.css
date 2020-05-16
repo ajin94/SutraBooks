@@ -10,3 +10,15 @@
 #sutra_menu .nav-item a:hover {
     color: black;
 }
+
+.bg-clr-black{
+    background-color:black;
+}
+
+.bg-clr-orange{
+    background-color:#d85a4b;
+}
+
+.bg-clr-yellow{
+    background-color:#fdbf18;
+}
