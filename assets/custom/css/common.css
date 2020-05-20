@@ -53,4 +53,8 @@
     color: white !important;
 }
 
+.contributors-row .card{
+    border: none;
+}
+
 
