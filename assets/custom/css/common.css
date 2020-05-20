@@ -4,7 +4,7 @@
 
 #sutra_menu .nav-item a {
     font-weight: bold;
-    color: #c53e2e;
+    color: black;
 }
 
 #sutra_menu .nav-item a:hover {
@@ -27,12 +27,30 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.nav-item a:hover{
+.nav-item .active p{
+    background-color: black;
+    color: white;
     border-radius: 50px;
-    color: black !important;
 }
 
-.nav-item .active{
-    background-color: black;
-    border-radius: 50px;
+.nav-link p{
+    margin: auto;
+    width: min-content;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: 0.3s;
 }
+
+.nav-item a p:hover{
+    border-radius: 50px;
+    color: white !important;
+    background-color: black;
+}
+
+.nav-item .active p:hover{
+    color: white !important;
+}
+
+
