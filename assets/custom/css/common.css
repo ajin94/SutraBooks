@@ -27,12 +27,6 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.nav-item .active p{
-    background-color: black;
-    color: white;
-    border-radius: 50px;
-}
-
 .nav-link p{
     margin: auto;
     width: min-content;
@@ -43,18 +37,26 @@
     transition: 0.3s;
 }
 
+.nav-item .active p{
+    background-color: white;
+    color: black;
+}
+
 .nav-item a p:hover{
-    border-radius: 50px;
-    color: white !important;
-    background-color: black;
+    color: black !important;
+    background-color: white;
 }
 
 .nav-item .active p:hover{
-    color: white !important;
+    color: black !important;
 }
 
 .contributors-row .card{
     border: none;
+}
+
+.main-bg-light{
+    background-color: #FBF6F0;
 }
 
 
